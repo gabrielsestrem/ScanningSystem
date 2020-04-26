@@ -52,13 +52,10 @@ namespace ScanningSystemClassLibrary
                     default:
                         break;
                 }
-
                 productsPriceList.Add(productPrice);
             }
-
             return productsPriceList;
         }
-
 
         public CheckOutItemModel ScanProduct(List<CheckOutItemModel> checkout, string product)
         {
@@ -91,7 +88,6 @@ namespace ScanningSystemClassLibrary
                     }
                 } 
             }
-
             // Return empty object when product code does not exists in the price list
             return scannedProduct;
         }
@@ -120,12 +116,9 @@ namespace ScanningSystemClassLibrary
                         continue;
                     }
                 }
-
                 // Price Calculation
                 totalPrice += item.Quantity * item.Price;
-
             }
-
             return totalPrice;
         }
     }
