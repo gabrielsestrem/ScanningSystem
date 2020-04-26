@@ -17,8 +17,8 @@ D | $0.75 |
 
 # The class library #
 
-1. Start.cs is the start point class.
-2. Business logic are implemented in the PointOfSaleTerminal
+1. Start Point: ScanningSystemClassLibrary.Start.StartCheckout(string[] items)
+2. Business logic are implemented in the services/PointOfSaleTerminal.cs
 
 # Running the tests #
 
