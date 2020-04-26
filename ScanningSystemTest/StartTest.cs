@@ -15,13 +15,13 @@ namespace ScanningSystemTest
         [DataRow(new string[] { "A", "W", "B", "C", "X", "D", "Z" }, "7.25")]
         // All invalid products, return 0
         [DataRow(new string[] { "Z", "Z", "Z", "Z", "Z", "Z", "Z" }, "0")]
-        public void Test_CheckOut(string[] products, string total)
+        public void Test_CheckOut(string[] items, string total)
         {
             // Arrange
             decimal expected = Convert.ToDecimal(total);
 
             // Act
-            decimal actual = ScanningSystemClassLibrary.Start.StartCheckout(products);
+            decimal actual = ScanningSystemClassLibrary.Start.StartCheckout(items);
 
             // Assert
             Assert.AreEqual(expected, actual);

@@ -5,15 +5,15 @@ namespace ScanningSystemClassLibrary
 {
     public class Start
     {
-        public static decimal StartCheckout(string[] products)
+        public static decimal StartCheckout(string[] items)
         {
             var terminal = new PointOfSaleTerminal();
             var checkOutList = new List<CheckOutItemModel>();
 
-            foreach (var product in products)
+            foreach (var item in items)
             {
                 // Scanning each product from the current order
-                var scannedProduct = terminal.ScanProduct(checkOutList, product);
+                var scannedProduct = terminal.ScanProduct(checkOutList, item);
 
                 if (scannedProduct.Quantity == 0)
                 {
