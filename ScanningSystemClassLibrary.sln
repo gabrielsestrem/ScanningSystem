@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScanningSystemClassLibrary", "ScanningSystemClassLibrary\ScanningSystemClassLibrary.csproj", "{C375049D-D3F4-4FF6-B714-64DA8B76FB12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScanningSystemTest", "ScanningSystemTest\ScanningSystemTest.csproj", "{BF565606-C20E-476A-9D15-592572FA0D2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C375049D-D3F4-4FF6-B714-64DA8B76FB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C375049D-D3F4-4FF6-B714-64DA8B76FB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C375049D-D3F4-4FF6-B714-64DA8B76FB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C375049D-D3F4-4FF6-B714-64DA8B76FB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF565606-C20E-476A-9D15-592572FA0D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF565606-C20E-476A-9D15-592572FA0D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF565606-C20E-476A-9D15-592572FA0D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF565606-C20E-476A-9D15-592572FA0D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0796A58C-948D-4AC5-8D15-E43D2C1C2831}
+	EndGlobalSection
+EndGlobal
